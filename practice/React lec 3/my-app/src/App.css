@@ -1,0 +1,44 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  background-color: rgb(49, 57, 72);
+  /* Light blue */
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.head {
+  color: rgb(65, 134, 168);
+}
+
+.counter {
+  display: flex;
+  background-color: aliceblue;
+  color: black;
+  width: 150px;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: x-large;
+  font-weight: bolder;
+  margin: 15px;
+}
+
+.btn1 {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: x-large;
+}
+.btn2{
+  background: none;
+  border: none;
+  cursor: pointer;
+  background-color:rgb(65, 134, 168);
+  color:white;
+  padding: 10px;
+}
