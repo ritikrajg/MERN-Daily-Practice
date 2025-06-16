@@ -1,9 +1,6 @@
 import React from "react";
-import useGet from "../hooks/useGet";
 
-const Content = () => {
-  const { loading, pages, totalPages, posts } = useGet(1);
-
+const Content = ({ loading, posts }) => {
   if (loading) return <div className="text-center">Loading...</div>;
 
   return (
