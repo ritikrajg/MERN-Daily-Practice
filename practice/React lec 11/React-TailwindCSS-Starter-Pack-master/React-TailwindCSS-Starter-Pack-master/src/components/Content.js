@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
+import { AppContext } from "../hooks/AppContext";
 
-const Content = ({ loading, posts }) => {
+const Content = () => {
+  const {posts,loading}=useContext(AppContext)
   if (loading) return <div className="text-center">Loading...</div>;
 
   return (
